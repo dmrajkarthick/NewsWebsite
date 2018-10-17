@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.navigation-bar ul{
+    list-style-type: none;
+    border: 100px;
+    padding: 10px 15px;
+    word-spacing: 123px;
+    font-size: large;
+    background-color: black;
+    color: white;
+
+}
+.navigation-bar li{
+    display: inline-block;
+    font-weight: bold; 
+    
+}
+header > h1{
+text-align: center;
+width: 600px;
+margin: auto;
+font-size: 60px;
+margin-top: 3px;
+margin-bottom: 10px;
+}
+#about { 
+    float: left;
+    margin: auto;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#about .left{
+    margin: 0px 150px 0px 10px;
+}
+#about .right{
+    
+    margin: 0px 10px 0px 150px;
+}
+#about .center{
+    padding: 0px 150px 0px 150px;
+}
+#bottom-header{
+    margin:auto;
+    background-color: grey;
+    color: black
+}
+#bottom-header .leftcorner{
+    float: left;
+    margin: 0px 950px 0px 5px;
+}
+.sidebyarticles{
+    float: left;
+    width: 20%;
+    margin: 10px 1px 10px 10px;
+    padding: 20px 10px 348px 10px;
+    
+    background-color: lightblue;
+}
+.sidebyarticles > h1{
+    text-align: left;
+    width:200px;
+    padding: 5px 40px 5px 10px;
+    height: 20px;
+    color:white;
+    background-color: blue;
+    border-width: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.firstarticle .secondartile .thirdarticle , h2{
+    text-align: left;
+    width:200px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.thirdarticle{
+    margin-bottom: 10px;
+}
+.mainheadlines{
+    
+    float: left;
+    width: 73%;
+    margin:10px 20px 10px 30px;
+}
+.mainheadlines h1{
+    float: left;
+    text-align: left;
+    width:103%;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.mainheadlines p{
+    float: left;
+    width: 250px;
+
+}
+.mainheadlines img{
+    float:right;
+    width: 620px;
+    height: 350px;
+    text-align: right;
+}
+.bodyarticles{
+    float: left;
+    display: flex;
+    margin: 0px 10px 0px 10px;
+}
+.secondbodyarticle{
+    float: left;
+    padding: 0px 40px 0px 40px;
+}
+.lastarticle{
+    float: left;
+    width:100%;
+    margin-bottom: 10px;
+}
+.lastarticle h2{
+    float: left;
+    width: 100%;
+}
+
+ .clearfix{
+     overflow: auto;
+ }
+ footer{
+    text-align: center;
+    font-size: 18px;
+    margin: 2px 10px 2px 10px;
+    background-color: bisque;
+}
+@media screen and (min-width:375px) and (max-width:600px){
+
+
+    .sidebyarticles{
+        
+        width: 390px;
+        margin: 10px 1px 10px 5px;
+        padding: 2px 5px 100px 2px;
+        
+        background-color: lightgreen;
+    }
+    .sidebyarticles > h1{
+        text-align: left;
+        width: 375px;
+        padding: 5px 10px 5px 5px;
+        
+        color:white;
+        background-color: blue;
+    
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .firstarticle .secondartile .thirdarticle , h2{
+        text-align: left;
+       width:375px;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .thirdarticle{
+        margin-bottom: 10px;
+    }
+}
+
+
